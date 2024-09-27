@@ -30,6 +30,7 @@ function Nav(props) {
           
         </nav>
         : 
+
         // If the user is not logged in, render the follwing content
         <nav className="navbar mavbar-expand-lg navbar-light bg-dark">
           <div className="navbar-header">

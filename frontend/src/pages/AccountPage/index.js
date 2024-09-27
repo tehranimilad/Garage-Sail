@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"
 import { Link } from "react-router-dom"
 import Button from 'react-bootstrap/Button';
 import React, { useEffect, useState } from "react";
+
 import './accountPage.css'
 
 
@@ -19,14 +20,6 @@ const AccountPage = (props) => {
         setUserData(props.currentUser.user)
         setUserProductData(props.currentUser.products)
     }, [props])
-
-    // useEffect(() => {
-    //     getToken().then(data => {
-    //         setUserData(data.user)
-    //         setUserProductData(data.products)
-    //     })
-    // }, [])
-    
 
     const handleDelete = () => {
         // Axios function to delete user account by using user.id 

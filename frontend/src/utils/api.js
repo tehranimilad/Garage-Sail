@@ -25,6 +25,7 @@ export async function userSignUp(formData) {
 // Show User / Posts (Account Page)
 
 export async function getUserAccount(userId) {
+
     const { data } = await axios.get(`user/${userId}`, config)
     return data
 }

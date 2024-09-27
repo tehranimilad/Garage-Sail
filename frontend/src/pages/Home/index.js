@@ -67,6 +67,7 @@ const Home = () => {
 
         <div className="row">
         {/* Maps over the Product List array and renders a product card component for each product */}
+
           {productList.map((product, i) => {
             return(
               
@@ -77,8 +78,8 @@ const Home = () => {
           }
           )
         }
-       </div>
 
+       </div>
       </main>
     );
 }
